@@ -1,6 +1,8 @@
 html {
   background-color: #83b799;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -30,6 +32,11 @@ h1 {
 .content img {
   width: 50%;
   height: auto;
+}
+
+.content p {
+  padding: 10px;
+  text-align: center;
 }
 
 #quoteGenerator {
